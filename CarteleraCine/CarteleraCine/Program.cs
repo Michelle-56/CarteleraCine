@@ -192,6 +192,7 @@ namespace CarteleraCine
             bool eliminado = repositorio.Eliminar(id);
             if (eliminado)
             {
+                
                 Console.WriteLine("Función eliminada.");
             }
             else
